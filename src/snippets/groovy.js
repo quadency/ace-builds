@@ -4,7 +4,8 @@ define("ace/snippets/groovy",["require","exports","module"], function(require, e
 exports.snippetText =undefined;
 exports.scope = "groovy";
 
-});                (function() {
+});
+                (function() {
                     window.require(["ace/snippets/groovy"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

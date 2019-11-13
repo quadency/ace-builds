@@ -4,7 +4,8 @@ define("ace/snippets/cobol",["require","exports","module"], function(require, ex
 exports.snippetText =undefined;
 exports.scope = "cobol";
 
-});                (function() {
+});
+                (function() {
                     window.require(["ace/snippets/cobol"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

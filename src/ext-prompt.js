@@ -2754,7 +2754,8 @@ dom.importCssString(".ace_prompt_container {\
 
 exports.prompt = prompt;
 
-});                (function() {
+});
+                (function() {
                     window.require(["ace/ext/prompt"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

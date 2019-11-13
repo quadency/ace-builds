@@ -4,7 +4,8 @@ define("ace/snippets/fortran",["require","exports","module"], function(require, 
 exports.snippetText =undefined;
 exports.scope = "fortran";
 
-});                (function() {
+});
+                (function() {
                     window.require(["ace/snippets/fortran"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

@@ -4,7 +4,8 @@ define("ace/snippets/matlab",["require","exports","module"], function(require, e
 exports.snippetText =undefined;
 exports.scope = "matlab";
 
-});                (function() {
+});
+                (function() {
                     window.require(["ace/snippets/matlab"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

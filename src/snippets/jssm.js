@@ -4,7 +4,8 @@ define("ace/snippets/jssm",["require","exports","module"], function(require, exp
 exports.snippetText =undefined;
 exports.scope = "";
 
-});                (function() {
+});
+                (function() {
                     window.require(["ace/snippets/jssm"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

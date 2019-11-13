@@ -21797,7 +21797,8 @@ exports.EditSession = EditSession;
 exports.UndoManager = UndoManager;
 exports.VirtualRenderer = Renderer;
 exports.version = exports.config.version;
-});            (function() {
+});
+            (function() {
                 window.require(["ace/ace"], function(a) {
                     if (a) {
                         a.config.init(true);

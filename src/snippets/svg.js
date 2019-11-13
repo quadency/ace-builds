@@ -4,7 +4,8 @@ define("ace/snippets/svg",["require","exports","module"], function(require, expo
 exports.snippetText =undefined;
 exports.scope = "svg";
 
-});                (function() {
+});
+                (function() {
                     window.require(["ace/snippets/svg"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

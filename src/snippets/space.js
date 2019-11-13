@@ -4,7 +4,8 @@ define("ace/snippets/space",["require","exports","module"], function(require, ex
 exports.snippetText =undefined;
 exports.scope = "space";
 
-});                (function() {
+});
+                (function() {
                     window.require(["ace/snippets/space"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

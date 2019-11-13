@@ -1,4 +1,4 @@
-ace.define("ace/keyboard/sublime",["require","exports","module","ace/lib/keys","ace/lib/oop","ace/lib/useragent","ace/keyboard/hash_handler"], function(require, exports, module) {
+ace.define("ace/keyboard/sublime",[], function(require, exports, module) {
 "use strict";
 
 var keyUtil = require("../lib/keys");
@@ -415,7 +415,8 @@ exports.handler.addCommands([{
     exports.handler.bindKey(binding.bindKey, command || binding.name);
 });
 
-});                (function() {
+});
+                (function() {
                     ace.require(["ace/keyboard/sublime"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;

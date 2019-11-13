@@ -4,7 +4,8 @@ define("ace/snippets/crystal",["require","exports","module"], function(require, 
 exports.snippetText =undefined;
 exports.scope = "crystal";
 
-});                (function() {
+});
+                (function() {
                     window.require(["ace/snippets/crystal"], function(m) {
                         if (typeof module == "object" && typeof exports == "object" && module) {
                             module.exports = m;
