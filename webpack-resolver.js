@@ -211,6 +211,7 @@ ace.config.setModuleUrl('ace/theme/kuroir', require('file-loader!./src-noconflic
 ace.config.setModuleUrl('ace/theme/merbivore', require('file-loader!./src-noconflict/theme-merbivore.js'))
 ace.config.setModuleUrl('ace/theme/merbivore_soft', require('file-loader!./src-noconflict/theme-merbivore_soft.js'))
 ace.config.setModuleUrl('ace/theme/monokai', require('file-loader!./src-noconflict/theme-monokai.js'))
+ace.config.setModuleUrl('ace/theme/quad_dark', require('file-loader!./src-noconflict/theme-quad_dark.js'))
 ace.config.setModuleUrl('ace/theme/mono_industrial', require('file-loader!./src-noconflict/theme-mono_industrial.js'))
 ace.config.setModuleUrl('ace/theme/pastel_on_dark', require('file-loader!./src-noconflict/theme-pastel_on_dark.js'))
 ace.config.setModuleUrl('ace/theme/solarized_dark', require('file-loader!./src-noconflict/theme-solarized_dark.js'))
