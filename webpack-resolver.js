@@ -213,6 +213,7 @@ ace.config.setModuleUrl('ace/theme/mono_industrial', require('file-loader!./src-
 ace.config.setModuleUrl('ace/theme/monokai', require('file-loader!./src-noconflict/theme-monokai.js'))
 ace.config.setModuleUrl('ace/theme/pastel_on_dark', require('file-loader!./src-noconflict/theme-pastel_on_dark.js'))
 ace.config.setModuleUrl('ace/theme/quad_dark', require('file-loader!./src-noconflict/theme-quad_dark.js'))
+ace.config.setModuleUrl('ace/theme/quad_light', require('file-loader!./src-noconflict/theme-quad_light.js'))
 ace.config.setModuleUrl('ace/theme/solarized_dark', require('file-loader!./src-noconflict/theme-solarized_dark.js'))
 ace.config.setModuleUrl('ace/theme/solarized_light', require('file-loader!./src-noconflict/theme-solarized_light.js'))
 ace.config.setModuleUrl('ace/theme/sqlserver', require('file-loader!./src-noconflict/theme-sqlserver.js'))

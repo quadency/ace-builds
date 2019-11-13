@@ -211,6 +211,7 @@ declare module 'ace-builds/src-noconflict/theme-mono_industrial';
 declare module 'ace-builds/src-noconflict/theme-monokai';
 declare module 'ace-builds/src-noconflict/theme-pastel_on_dark';
 declare module 'ace-builds/src-noconflict/theme-quad_dark';
+declare module 'ace-builds/src-noconflict/theme-quad_light';
 declare module 'ace-builds/src-noconflict/theme-solarized_dark';
 declare module 'ace-builds/src-noconflict/theme-solarized_light';
 declare module 'ace-builds/src-noconflict/theme-sqlserver';
