@@ -1,6 +1,6 @@
 {
     "name": "ace-builds",
-    "main": "./src-noconflict/ace.js",
+    "main": "./src-min-noconflict/ace.js",
     "typings": "ace.d.ts",
     "version": "1.4.7",
     "description": "Ace (Ajax.org Cloud9 Editor)",
