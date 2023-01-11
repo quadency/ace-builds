@@ -3,8 +3,8 @@ define("ace/theme/quad_dark",["require","exports","module","ace/lib/dom"], funct
   exports.isDark = true;
   exports.cssClass = "ace-quad-dark";
   exports.cssText = ".ace-quad-dark .ace_gutter {\
-background: #273142;\
-color: #7f8fa4\
+background: #363636;\
+color: #273142\
 }\
 .ace-quad-dark .ace_print-margin {\
 width: 1px;\
